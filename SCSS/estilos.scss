@@ -1,0 +1,98 @@
+$naranjita: #ff9900;
+$Osc: #42424257;
+$texto:#e9e9e9;
+$grisB: #bcbcbc;
+$azul: #3299bb7c;
+
+%sin-linea{
+    text-decoration:none;
+}
+
+body
+{
+    background-image: url('../Media/400076.jpg');
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: $texto;
+}
+
+header 
+{
+    
+    width: 100%;
+    background-color:$Osc;
+    border: 1px solid $grisB;
+    color: $grisB;
+}
+
+
+
+
+div.bg-naranjita
+{
+    background-color: $naranjita;
+
+    padding: 20px;
+    border: 2px solid $grisB;
+}
+
+#Concepto
+{
+    border: 1px solid $grisB;
+    border-radius: 25px;
+    background-color: $azul;
+    color: $texto;
+    padding: 1%;
+}
+
+.link
+{
+    @extend %sin-linea;
+    color: $texto;
+
+}
+
+a.link:hover
+{
+    color: rgba(9, 160, 22, 0.486);
+}
+
+
+.interno
+{
+    @extend %sin-linea;
+    color:$azul;
+}
+
+div.si
+{
+    float:left;
+    background: #000;
+    width: 100px;
+    height: 100px;
+    margin: 10%;
+}
+
+div.bg-claro
+{
+    background-color: rgba(255, 255, 255, 0.671);
+    color: #000;
+}
+
+.border-D
+{
+    border: 1px solid $texto;
+}
+
+.container
+{
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+footer > a
+{
+    @extend %sin-linea;
+    text-align: right; 
+}
