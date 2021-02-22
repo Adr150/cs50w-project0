@@ -11,11 +11,31 @@ $azul: #3299bb7c;
 body
 {
     background-image: url('../Media/400076.jpg');
-    
+    /* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+    /*background-size:contain;
     height: 100%;
-    background-size:contain;
+    background-attachment: fixed;
+    
     background-repeat:round;
-    margin: 0;
+    margin: 0;*/
+    
     color: $texto;
 }
 
