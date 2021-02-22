@@ -4,6 +4,7 @@ footer > a, .interno, .link {
 
 body {
   background-image: url("../Media/400076.jpg");
+  height: 100%;
   background-size: contain;
   background-repeat: round;
   margin: 0;
