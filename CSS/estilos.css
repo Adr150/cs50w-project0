@@ -31,6 +31,10 @@ header {
   color: #bcbcbc;
 }
 
+.container {
+  height: 100%;
+}
+
 div.bg-naranjita {
   background-color: #ff9900;
   padding: 20px;
