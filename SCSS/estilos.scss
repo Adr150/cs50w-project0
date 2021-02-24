@@ -1,4 +1,4 @@
-$naranjita: #ff9900;
+$naranjita: #ff990091;
 $Osc: #42424257;
 $texto:#e9e9e9;
 $grisB: #bcbcbc;
@@ -121,4 +121,11 @@ footer > a
 {
     @extend %sin-linea;
     text-align: right; 
+}
+
+footer
+{
+    width: 100%;
+    height: 15%;
+    background-color: $naranjita;
 }

@@ -36,7 +36,7 @@ header {
 }
 
 div.bg-naranjita {
-  background-color: #ff9900;
+  background-color: #ff990091;
   padding: 20px;
   border: 2px solid #bcbcbc;
 }
@@ -84,6 +84,12 @@ div.bg-claro {
 
 footer > a {
   text-align: right;
+}
+
+footer {
+  width: 100%;
+  height: 15%;
+  background-color: #ff990091;
 }
 
 /*# sourceMappingURL=estilos.css.map */
